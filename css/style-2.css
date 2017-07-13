@@ -1,0 +1,116 @@
+.hero-area {
+    background-image:url(../img/hero-bg-home-2_02.jpg);
+    background-color: #2a9df8;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.box-btn {background-color: #06d6a0;}
+
+.hero-content {
+    padding: 100px 0;
+}
+.hero-content h1, .hero-content {
+    color: #fff;
+}
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.hero-form {
+    background-color: #fff;
+    padding: 45px 30px;
+}
+.hero-title h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.hero-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.hero-form-wrapper {
+    text-align: left;
+    width: 100%;
+}
+.hero-form-wrapper input[type="submit"] {
+    background-color: #06d6a0;
+    display: block;
+    margin: 50px auto 0;
+    width: 200px;
+}
+.hero-form-wrapper input[type="text"], input[type="email"], input[type="url"] {
+    width: 100%;
+}
+.hero-form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 45px 30px;
+  position: relative;
+  z-index: 1;
+}
+.hero-form::after {
+    background-color: #fff;
+    border-radius: 5px;
+    content: "";
+    height: 100%;
+    left: 8px;
+    opacity: 0.2;
+    position: absolute;
+    top: 8px;
+    width: 100%;
+    z-index: -1;
+}
+.padding-top-0 {
+    padding-top: 0px;
+}
+
+
+
+
+
+.about-text h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.about-text .box-btn {
+    margin-top: 20px;
+}
+.about-text {
+    margin-top: 20px;
+}
+.section-padding {
+    padding: 120px 0;
+}
+.padding-bottom-0 {
+    padding-bottom: 0;
+}
+.single-service-2 {
+    background-color: #fbfbfb;
+    display: table;
+    height: 250px;
+    text-align: center;
+    width: 100%;
+}
+.service-item-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.service-icon {
+    color: #24a2f9;
+    transition: all 0.3s ease 0s;
+}
+.single-service-2 h3 {
+    font-size: 22px;
+    transition: all 0.3s ease 0s;
+}
+.single-service-2 *:hover .service-icon, .single-service-2 *:hover h3 {
+    color: #fff;
+}
+.single-service-2 *:hover { background: #04befe;
+background: -moz-linear-gradient(top, #04befe 0%, #4481eb 100%);
+background: -webkit-linear-gradient(top, #04befe 0%,#4481eb 100%);
+background: linear-gradient(to bottom, #04befe 0%,#4481eb 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04befe', endColorstr='#4481eb',GradientType=0 );
+}
